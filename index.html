@@ -168,7 +168,7 @@
 
     <!--nav menu do site  -->
     <nav class="container-fluid nav-produtos">
-        <!-- container -->
+      <!-- container -->
       <section class="container">
         <!-- menu -->
         <ul class="nav">
@@ -197,7 +197,6 @@
               <li class="nav-item">Promoção</li>
             </ul>
             <!-- end submenu -->
-
           </li>
           <li class="nav-item">
             <svg
@@ -221,28 +220,58 @@
       <!-- end container -->
     </nav>
     <!--end nav  end menu do site-->
+    <main>
+      <!-- banners promocionais rotativos -->
+      <section
+        id="banners-promocionais"
+        class="container carousel slide"
+        data-ride="carousel"
+      >
+        <!-- imagens -->
+        <article class="carousel-inner">
+          <figure class="carousel-item active">
+            <img
+              src="./assets/images/banner-1.jpg"
+              class="d-block w-100"
+              alt="Banner promocional lançamento verão"
+            />
+          </figure>
 
-    <!-- Carrosel -->
-    <section id="banners-promocionais" class="carousel slide">
-      <article class="carousel-inner">
-        <figure class="carousel-item active">
-          <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="Banner promocional lançamento verão">
-        </figure>
-        <figure class="carousel-item">
-          <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="Banner promocional diversos itens">
-        </figure>
-      </article>
-      <button class="carousel-control-prev" type="button" data-bs-target="#banners-promocionais" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#banners-promocionais" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </section>
-    <!--end Carrossel -->
-    
+          <figure class="carousel-item">
+            <img
+              src="./assets/images/banner-2.jpg"
+              class="d-block w-100"
+              alt="Banner promocional diversos itens"
+            />
+          </figure>
+        </article>
+        <!-- end imagens -->
+
+        <!-- prev button -->
+        <a
+          href="#banners-promocionais"
+          class="carousel-control-prev"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <!-- end prev button -->
+        <!-- next button -->
+        <a
+          href="#banners-promocionais"
+          class="carousel-control-next"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!-- end next button -->
+      </section>
+      <!--end Carrossel -->
+    </main>
 
     <!-- Arquivos Bootstrap -->
     <script src="./assets/js/jquery.js"></script>
