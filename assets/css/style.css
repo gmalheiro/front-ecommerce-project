@@ -9646,4 +9646,24 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-weight: bold;
 }
 
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  font-size: 10px;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=style.css.map */
